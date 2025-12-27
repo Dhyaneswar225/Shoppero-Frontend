@@ -2,7 +2,13 @@ import { Header } from '../components/Header';
 import './HomePage.css';
 import {products} from '../data/products.js';
 export function HomePage() {
-  return (
+    fetch('http://localhost:3000/api/products')
+    .then(response => {
+        return response.json();
+        }).then((data)=> {
+            console.log(data);
+    });
+    return (
     <>
         <title>Home</title>
         <Header />
@@ -63,5 +69,5 @@ export function HomePage() {
             </div>
         </div>
     </>
-  );
+   );
 }
