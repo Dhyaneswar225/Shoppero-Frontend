@@ -15,8 +15,24 @@
   height: 60px;
 }
 
-.header .left-section {
-  width: 208px;
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+/* Text logo */
+.header-title {
+  color: white;              /* IMPORTANT */
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+/* Prevent inherited styles hiding text */
+.header-link {
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -36,27 +52,6 @@
 
 .header .header-link:hover {
   border: 1px solid white;
-}
-
-.header .logo {
-  height: 26px;
-  margin-top: 1px;
-}
-
-.header .mobile-logo {
-  display: none;
-}
-
-@media (max-width: 675px) {
-  .header .logo {
-    display: none;
-  }
-
-  .header .mobile-logo {
-    display: block;
-    height: 26px;
-    margin-top: 1px;
-  }
 }
 
 .header .middle-section {
