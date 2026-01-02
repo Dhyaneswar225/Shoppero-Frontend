@@ -3,7 +3,6 @@
 This repository contains the **frontend** of a full-stack ecommerce application built using **React**.  
 It provides a complete shopping experience including product browsing, cart management, checkout, and order history.
 
----
 
 ## 🚀 Features
 
@@ -18,7 +17,6 @@ It provides a complete shopping experience including product browsing, cart mana
 - “Buy again” functionality
 - Responsive UI inspired by real-world ecommerce platforms
 
----
 
 ## 🛠️ Tech Stack
 
@@ -29,14 +27,12 @@ It provides a complete shopping experience including product browsing, cart mana
 - **Vite**
 - **Vitest + React Testing Library**
 
----
 
 ## 📂 Project Structure
 ![alt text](image.png)
 ![alt text](image-1.png)
 
 
----
 
 ## ⚙️ Setup & Run Locally
 
